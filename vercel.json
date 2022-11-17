@@ -1,0 +1,5 @@
+{
+    "installCommand": "npm install -g truffle && cd truffle && yarn install && cd ../client && yarn install",
+    "buildCommand": "cd truffle && yarn compile && cd ../client && yarn build",
+    "outputDirectory": "client/build"
+}
