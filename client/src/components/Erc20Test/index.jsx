@@ -4,7 +4,7 @@ import useEth from "../../contexts/EthContext/useEth";
 
 
 function UserAddress() {
-    const { state: { contract, accounts, web3 } } = useEth();
+    const { state: { accounts } } = useEth();
     if (!accounts || !accounts[0]) {
         return null;
     }
