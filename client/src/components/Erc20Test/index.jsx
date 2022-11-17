@@ -30,6 +30,7 @@ function Button() {
     if (contract?.methods) {
         refreshBalance();
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [contract]);
 
   const handleInputChange = e => {
